@@ -1,0 +1,926 @@
+{
+  "users": [
+    {
+      "id": "demo-user-id",
+      "full_name": "Demo QA Engineer",
+      "email": "demo@example.com",
+      "password_hash": "$2a$10$DEMO_HASH_PLACEHOLDER",
+      "role": "user",
+      "created_at": "2026-06-09T15:00:01.557Z",
+      "updated_at": "2026-06-09T15:00:01.557Z"
+    },
+    {
+      "id": "jafar-user-id",
+      "full_name": "Jafar Khan",
+      "email": "jafarkhanali56@gmail.com",
+      "password_hash": "$2a$10$DEMO_HASH_PLACEHOLDER",
+      "role": "admin",
+      "created_at": "2026-06-09T15:00:01.557Z",
+      "updated_at": "2026-06-09T15:00:01.557Z"
+    },
+    {
+      "id": "usr_2b9yxp693",
+      "full_name": "rudra",
+      "email": "rudrabalaji2911@gmail.com",
+      "password_hash": "$2a$10$SIMULATED_BCRYPT_MTIzNA==",
+      "role": "user",
+      "created_at": "2026-06-09T15:05:25.591Z",
+      "updated_at": "2026-06-09T15:05:25.591Z"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "tc_2r7aqrpml",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:08:00.071Z",
+      "updated_at": "2026-06-09T15:08:00.071Z"
+    },
+    {
+      "id": "tc_ehfafnuuj",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:08:08.241Z",
+      "updated_at": "2026-06-09T15:08:08.241Z"
+    },
+    {
+      "id": "tc_hq5pj7k5i",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:25:24.093Z",
+      "updated_at": "2026-06-09T15:25:24.093Z"
+    },
+    {
+      "id": "tc_wdot0u8iu",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:25:38.656Z",
+      "updated_at": "2026-06-09T15:25:38.656Z"
+    },
+    {
+      "id": "tc_2vn7b5rmd",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:26:15.895Z",
+      "updated_at": "2026-06-09T15:26:15.895Z"
+    },
+    {
+      "id": "tc_2m84q64ix",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:26:55.757Z",
+      "updated_at": "2026-06-09T15:26:55.757Z"
+    },
+    {
+      "id": "tc_6eso6zzwi",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:39:44.058Z",
+      "updated_at": "2026-06-09T15:39:44.058Z"
+    },
+    {
+      "id": "tc_ukgi9vkea",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:39:48.278Z",
+      "updated_at": "2026-06-09T15:39:48.278Z"
+    },
+    {
+      "id": "tc_9v5soo4aq",
+      "user_id": "usr_2b9yxp693",
+      "title": "Verify items purchase flow",
+      "test_prompt": "Login as user, add 2 items to cart, checkout, expect order confirmation",
+      "created_at": "2026-06-09T15:46:07.770Z",
+      "updated_at": "2026-06-09T15:46:07.770Z"
+    }
+  ],
+  "test_runs": [
+    {
+      "id": "run_v42geh1hf",
+      "test_case_id": "tc_ehfafnuuj",
+      "user_id": "usr_2b9yxp693",
+      "status": "Failed",
+      "started_at": "2026-06-09T15:08:08.241Z",
+      "completed_at": "2026-06-09T15:09:03.271Z",
+      "execution_time": 55,
+      "final_result": "Failed"
+    },
+    {
+      "id": "run_077emo7k4",
+      "test_case_id": "tc_2m84q64ix",
+      "user_id": "usr_2b9yxp693",
+      "status": "Failed",
+      "started_at": "2026-06-09T15:26:55.758Z",
+      "completed_at": "2026-06-09T15:28:12.834Z",
+      "execution_time": 77,
+      "final_result": "Failed"
+    },
+    {
+      "id": "run_p8pjxkfnw",
+      "test_case_id": "tc_ukgi9vkea",
+      "user_id": "usr_2b9yxp693",
+      "status": "Failed",
+      "started_at": "2026-06-09T15:39:48.278Z",
+      "completed_at": "2026-06-09T15:40:58.042Z",
+      "execution_time": 70,
+      "final_result": "Failed"
+    }
+  ],
+  "execution_steps": [
+    {
+      "id": "step_rsnckphcth",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 1,
+        "action": "open_url",
+        "target": "demoblaze.com",
+        "value": null,
+        "timeout_seconds": 30,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_voxgiv73fa",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 2,
+        "action": "click",
+        "target": "css=.card-title a",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_3hnnbmwdpq5",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 3,
+        "action": "click",
+        "target": "css=a.btn-success",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_kej3ysc22bl",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 4,
+        "action": "click",
+        "target": "css=a#cartur",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_ztqic53fsx",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 5,
+        "action": "click",
+        "target": "css=button.btn-success",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_e894dtiz0s5",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 6,
+        "action": "fill",
+        "target": "css=input#name",
+        "value": "Standard QAUser",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_frbqv08uxbn",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 7,
+        "action": "fill",
+        "target": "css=input#card",
+        "value": "4242424242424242",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_wvkan9q7ysb",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 8,
+        "action": "fill",
+        "target": "css=input#country",
+        "value": "United States",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_oc381nx1v2g",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 9,
+        "action": "fill",
+        "target": "css=input#city",
+        "value": "Los Angeles",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_qpjt4bh22s9",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 10,
+        "action": "click",
+        "target": "css=button[onclick='purchase()']",
+        "value": null,
+        "timeout_seconds": 25,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_3jfgoativhy",
+      "test_run_id": "run_v42geh1hf",
+      "step": {
+        "step_number": 11,
+        "action": "verify_text",
+        "target": "body",
+        "value": "Thank you for your purchase",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "always"
+      }
+    },
+    {
+      "id": "step_cmusxlndph9",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 1,
+        "action": "open_url",
+        "target": "demoblaze.com",
+        "value": null,
+        "timeout_seconds": 30,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_29nhernh1sm",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 2,
+        "action": "click",
+        "target": "css=.card-title a",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_5eict2vxveu",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 3,
+        "action": "click",
+        "target": "css=a.btn-success",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_r3h8h7cmm7l",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 4,
+        "action": "click",
+        "target": "css=a#cartur",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_04y67prd2yqu",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 5,
+        "action": "click",
+        "target": "css=button.btn-success",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_e8829f1an0w",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 6,
+        "action": "fill",
+        "target": "css=input#name",
+        "value": "Standard QAUser",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_vx8xe6bff5",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 7,
+        "action": "fill",
+        "target": "css=input#card",
+        "value": "4242424242424242",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_yvqs1zaiveh",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 8,
+        "action": "fill",
+        "target": "css=input#country",
+        "value": "United States",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_23deshi8fay",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 9,
+        "action": "fill",
+        "target": "css=input#city",
+        "value": "Los Angeles",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_b28o2aq6i39",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 10,
+        "action": "click",
+        "target": "css=button[onclick='purchase()']",
+        "value": null,
+        "timeout_seconds": 25,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_2j2nseqqadz",
+      "test_run_id": "run_077emo7k4",
+      "step": {
+        "step_number": 11,
+        "action": "verify_text",
+        "target": "body",
+        "value": "Thank you for your purchase",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "always"
+      }
+    },
+    {
+      "id": "step_p34map9621a",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 1,
+        "action": "open_url",
+        "target": "demoblaze.com",
+        "value": null,
+        "timeout_seconds": 30,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_lo1e4j2arh",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 2,
+        "action": "click",
+        "target": "css=.card-title a",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_3dzey0n3fzo",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 3,
+        "action": "click",
+        "target": "css=a.btn-success",
+        "value": null,
+        "timeout_seconds": 15,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_azkj6c0ibsj",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 4,
+        "action": "click",
+        "target": "css=a#cartur",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_ywznij62jha",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 5,
+        "action": "click",
+        "target": "css=button.btn-success",
+        "value": null,
+        "timeout_seconds": 20,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_drzmyyezdzl",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 6,
+        "action": "fill",
+        "target": "css=input#name",
+        "value": "Standard QAUser",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_jnus3tk1sg",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 7,
+        "action": "fill",
+        "target": "css=input#card",
+        "value": "4242424242424242",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_xwi5o0nyh1n",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 8,
+        "action": "fill",
+        "target": "css=input#country",
+        "value": "United States",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_ijk9e1l2col",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 9,
+        "action": "fill",
+        "target": "css=input#city",
+        "value": "Los Angeles",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_yidhbiqlae9",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 10,
+        "action": "click",
+        "target": "css=button[onclick='purchase()']",
+        "value": null,
+        "timeout_seconds": 25,
+        "retry": 2,
+        "screenshot_on": "on_failure"
+      }
+    },
+    {
+      "id": "step_4v5napl8pfk",
+      "test_run_id": "run_p8pjxkfnw",
+      "step": {
+        "step_number": 11,
+        "action": "verify_text",
+        "target": "body",
+        "value": "Thank you for your purchase",
+        "timeout_seconds": 15,
+        "retry": 1,
+        "screenshot_on": "always"
+      }
+    }
+  ],
+  "verifications": [],
+  "screenshots": [
+    {
+      "id": "scr_nviwswczc",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 1,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_1.png",
+      "captured_at": "2026-06-09T15:08:42.061Z"
+    },
+    {
+      "id": "scr_qpiia6cc6",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 2,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_2.png",
+      "captured_at": "2026-06-09T15:08:44.698Z"
+    },
+    {
+      "id": "scr_c13t4u4tg",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 3,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_3.png",
+      "captured_at": "2026-06-09T15:08:46.865Z"
+    },
+    {
+      "id": "scr_b6yaqlbms",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 4,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_4.png",
+      "captured_at": "2026-06-09T15:08:50.095Z"
+    },
+    {
+      "id": "scr_z1r9q2m5c",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 5,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_5.png",
+      "captured_at": "2026-06-09T15:08:52.215Z"
+    },
+    {
+      "id": "scr_bftqrc1rc",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 6,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_6.png",
+      "captured_at": "2026-06-09T15:08:53.851Z"
+    },
+    {
+      "id": "scr_6xubpyyn1",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 7,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_7.png",
+      "captured_at": "2026-06-09T15:08:55.463Z"
+    },
+    {
+      "id": "scr_ltr2r36e3",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 8,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_8.png",
+      "captured_at": "2026-06-09T15:08:57.055Z"
+    },
+    {
+      "id": "scr_p0h8h67em",
+      "test_run_id": "run_v42geh1hf",
+      "step_number": 9,
+      "file_path": "/screenshots/usr_2b9yxp693/run_v42geh1hf/step_9.png",
+      "captured_at": "2026-06-09T15:08:58.650Z"
+    },
+    {
+      "id": "scr_r8mnxrybe",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 1,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_1.png",
+      "captured_at": "2026-06-09T15:26:58.658Z"
+    },
+    {
+      "id": "scr_26su5s5nu",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 2,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_2.png",
+      "captured_at": "2026-06-09T15:27:01.886Z"
+    },
+    {
+      "id": "scr_3gqspk4m7",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 3,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_3.png",
+      "captured_at": "2026-06-09T15:27:05.869Z"
+    },
+    {
+      "id": "scr_xvhlxy6yr",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 4,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_4.png",
+      "captured_at": "2026-06-09T15:27:08.240Z"
+    },
+    {
+      "id": "scr_bbnlmjdx4",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 5,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_5.png",
+      "captured_at": "2026-06-09T15:27:10.365Z"
+    },
+    {
+      "id": "scr_sxp6d7v40",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 6,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_6.png",
+      "captured_at": "2026-06-09T15:27:11.951Z"
+    },
+    {
+      "id": "scr_gizi38pag",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 7,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_7.png",
+      "captured_at": "2026-06-09T15:27:13.537Z"
+    },
+    {
+      "id": "scr_i0sr7mbnc",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 8,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_8.png",
+      "captured_at": "2026-06-09T15:27:15.137Z"
+    },
+    {
+      "id": "scr_342mlj2i0",
+      "test_run_id": "run_077emo7k4",
+      "step_number": 9,
+      "file_path": "/screenshots/usr_2b9yxp693/run_077emo7k4/step_9.png",
+      "captured_at": "2026-06-09T15:27:16.721Z"
+    },
+    {
+      "id": "scr_a6amy68ft",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 1,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_1.png",
+      "captured_at": "2026-06-09T15:39:50.994Z"
+    },
+    {
+      "id": "scr_4gsoxl4r2",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 2,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_2.png",
+      "captured_at": "2026-06-09T15:39:53.417Z"
+    },
+    {
+      "id": "scr_jui8l2tae",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 3,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_3.png",
+      "captured_at": "2026-06-09T15:39:55.571Z"
+    },
+    {
+      "id": "scr_d4u9br7y8",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 4,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_4.png",
+      "captured_at": "2026-06-09T15:39:57.948Z"
+    },
+    {
+      "id": "scr_vqrf1ntb8",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 5,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_5.png",
+      "captured_at": "2026-06-09T15:40:00.088Z"
+    },
+    {
+      "id": "scr_7mxm6q2k0",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 6,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_6.png",
+      "captured_at": "2026-06-09T15:40:01.675Z"
+    },
+    {
+      "id": "scr_yjwrvw5gy",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 7,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_7.png",
+      "captured_at": "2026-06-09T15:40:03.289Z"
+    },
+    {
+      "id": "scr_mf5pioigo",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 8,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_8.png",
+      "captured_at": "2026-06-09T15:40:04.876Z"
+    },
+    {
+      "id": "scr_uw5m7ieqt",
+      "test_run_id": "run_p8pjxkfnw",
+      "step_number": 9,
+      "file_path": "/screenshots/usr_2b9yxp693/run_p8pjxkfnw/step_9.png",
+      "captured_at": "2026-06-09T15:40:06.459Z"
+    }
+  ],
+  "ai_suggestions": [
+    {
+      "id": "sug_12h58ty6u",
+      "test_case_id": "tc_2r7aqrpml",
+      "suggestion_text": "Verify successful login state (e.g. assert profile dropdown is visible)",
+      "created_at": "2026-06-09T15:08:02.216Z"
+    },
+    {
+      "id": "sug_hxkyy7lbk",
+      "test_case_id": "tc_2r7aqrpml",
+      "suggestion_text": "Verify cart quantity badge updates instantly after clicking Add to Cart",
+      "created_at": "2026-06-09T15:08:02.216Z"
+    },
+    {
+      "id": "sug_at0ww2axy",
+      "test_case_id": "tc_2r7aqrpml",
+      "suggestion_text": "Add confirmation code validation after checking out (status_code and body check)",
+      "created_at": "2026-06-09T15:08:02.216Z"
+    },
+    {
+      "id": "sug_flgpkxfib",
+      "test_case_id": "tc_2r7aqrpml",
+      "suggestion_text": "Test keyboard control accessibility (e.g. check tab indexing on target navigation inputs)",
+      "created_at": "2026-06-09T15:08:02.216Z"
+    },
+    {
+      "id": "sug_n6ffgl6ss",
+      "test_case_id": "tc_hq5pj7k5i",
+      "suggestion_text": "Validate that the total order amount (including item prices, calculated taxes, and shipping) on the final confirmation page matches the mathematical sum of the items added to the cart.",
+      "created_at": "2026-06-09T15:25:35.618Z"
+    },
+    {
+      "id": "sug_onzb2tyxs",
+      "test_case_id": "tc_hq5pj7k5i",
+      "suggestion_text": "Assert that the shopping cart badge count updates dynamically and persists its state of containing 2 items if the user refreshes the browser page prior to starting checkout.",
+      "created_at": "2026-06-09T15:25:35.618Z"
+    },
+    {
+      "id": "sug_kup18k5ij",
+      "test_case_id": "tc_hq5pj7k5i",
+      "suggestion_text": "Measure and assert that the checkout submission API response time stays below a defined performance threshold (such as 2000ms) to ensure a fast, non-blocking transactional experience.",
+      "created_at": "2026-06-09T15:25:35.618Z"
+    },
+    {
+      "id": "sug_xx4wizge1",
+      "test_case_id": "tc_hq5pj7k5i",
+      "suggestion_text": "Add visual regression assertions on the order confirmation page to verify that critical UI elements, like the success badge, order number, and receipt layout, render correctly across mobile and desktop viewport sizes.",
+      "created_at": "2026-06-09T15:25:35.618Z"
+    },
+    {
+      "id": "sug_z5fppl7eo",
+      "test_case_id": "tc_wdot0u8iu",
+      "suggestion_text": "Verify successful login state (e.g. assert profile dropdown is visible)",
+      "created_at": "2026-06-09T15:26:08.610Z"
+    },
+    {
+      "id": "sug_x944nahqf",
+      "test_case_id": "tc_wdot0u8iu",
+      "suggestion_text": "Verify cart quantity badge updates instantly after clicking Add to Cart",
+      "created_at": "2026-06-09T15:26:08.610Z"
+    },
+    {
+      "id": "sug_f87gmid1d",
+      "test_case_id": "tc_wdot0u8iu",
+      "suggestion_text": "Add confirmation code validation after checking out (status_code and body check)",
+      "created_at": "2026-06-09T15:26:08.610Z"
+    },
+    {
+      "id": "sug_genoz0ucf",
+      "test_case_id": "tc_wdot0u8iu",
+      "suggestion_text": "Test keyboard control accessibility (e.g. check tab indexing on target navigation inputs)",
+      "created_at": "2026-06-09T15:26:08.610Z"
+    },
+    {
+      "id": "sug_y7ymwqfqg",
+      "test_case_id": "tc_2vn7b5rmd",
+      "suggestion_text": "Verify successful login state (e.g. assert profile dropdown is visible)",
+      "created_at": "2026-06-09T15:26:51.226Z"
+    },
+    {
+      "id": "sug_rq6wwubez",
+      "test_case_id": "tc_2vn7b5rmd",
+      "suggestion_text": "Verify cart quantity badge updates instantly after clicking Add to Cart",
+      "created_at": "2026-06-09T15:26:51.226Z"
+    },
+    {
+      "id": "sug_ita3jgl1i",
+      "test_case_id": "tc_2vn7b5rmd",
+      "suggestion_text": "Add confirmation code validation after checking out (status_code and body check)",
+      "created_at": "2026-06-09T15:26:51.226Z"
+    },
+    {
+      "id": "sug_fqnnxoxdn",
+      "test_case_id": "tc_2vn7b5rmd",
+      "suggestion_text": "Test keyboard control accessibility (e.g. check tab indexing on target navigation inputs)",
+      "created_at": "2026-06-09T15:26:51.226Z"
+    },
+    {
+      "id": "sug_1mbzg7x0o",
+      "test_case_id": "tc_6eso6zzwi",
+      "suggestion_text": "Verify successful login state (e.g. assert profile dropdown is visible)",
+      "created_at": "2026-06-09T15:39:45.843Z"
+    },
+    {
+      "id": "sug_0p9lyl2h9",
+      "test_case_id": "tc_6eso6zzwi",
+      "suggestion_text": "Verify cart quantity badge updates instantly after clicking Add to Cart",
+      "created_at": "2026-06-09T15:39:45.843Z"
+    },
+    {
+      "id": "sug_1jd1xgklv",
+      "test_case_id": "tc_6eso6zzwi",
+      "suggestion_text": "Add confirmation code validation after checking out (status_code and body check)",
+      "created_at": "2026-06-09T15:39:45.843Z"
+    },
+    {
+      "id": "sug_b9gnqzv7y",
+      "test_case_id": "tc_6eso6zzwi",
+      "suggestion_text": "Test keyboard control accessibility (e.g. check tab indexing on target navigation inputs)",
+      "created_at": "2026-06-09T15:39:45.843Z"
+    },
+    {
+      "id": "sug_8iopk0pu4",
+      "test_case_id": "tc_9v5soo4aq",
+      "suggestion_text": "Verify successful login state (e.g. assert profile dropdown is visible)",
+      "created_at": "2026-06-09T15:51:08.658Z"
+    },
+    {
+      "id": "sug_31us2c2wp",
+      "test_case_id": "tc_9v5soo4aq",
+      "suggestion_text": "Verify cart quantity badge updates instantly after clicking Add to Cart",
+      "created_at": "2026-06-09T15:51:08.658Z"
+    },
+    {
+      "id": "sug_dnrwp4pib",
+      "test_case_id": "tc_9v5soo4aq",
+      "suggestion_text": "Add confirmation code validation after checking out (status_code and body check)",
+      "created_at": "2026-06-09T15:51:08.658Z"
+    },
+    {
+      "id": "sug_fge9bihqx",
+      "test_case_id": "tc_9v5soo4aq",
+      "suggestion_text": "Test keyboard control accessibility (e.g. check tab indexing on target navigation inputs)",
+      "created_at": "2026-06-09T15:51:08.658Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_70yada619",
+      "test_run_id": "run_v42geh1hf",
+      "report_file_path": "/app/applet/reports/usr_2b9yxp693/run_v42geh1hf.json",
+      "generated_at": "2026-06-09T15:09:03.272Z"
+    },
+    {
+      "id": "rep_e4twrfi53",
+      "test_run_id": "run_077emo7k4",
+      "report_file_path": "/app/applet/reports/usr_2b9yxp693/run_077emo7k4.json",
+      "generated_at": "2026-06-09T15:28:12.836Z"
+    },
+    {
+      "id": "rep_ztx8v2owi",
+      "test_run_id": "run_p8pjxkfnw",
+      "report_file_path": "/app/applet/reports/usr_2b9yxp693/run_p8pjxkfnw.json",
+      "generated_at": "2026-06-09T15:40:58.044Z"
+    }
+  ]
+}
